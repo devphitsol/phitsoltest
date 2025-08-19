@@ -45,6 +45,87 @@ composer.lock
 # Node modules (if any)
 node_modules/
 
+# Next.js build output
+.next/
+out/
+
 # Temporary files
 *.tmp
-*.temp 
+*.temp
+*.cache
+
+# Test files
+*test*.php
+*Test*.php
+test_*.php
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PHP specific
+*.php~
+*.php.bak
+
+# ===========================================
+# DEPLOYMENT EXCLUSIONS
+# ===========================================
+# These directories should be excluded from production deployment
+# but kept in development for local development
+
+# Dependencies (install on production server)
+node_modules/
+vendor/
+composer.lock
+package-lock.json
+yarn.lock
+
+# Build outputs (generate on production server)
+.next/
+out/
+dist/
+build/
+
+# Development tools
+.git/
+.gitignore
+README.md
+*.md
+
+# Development configuration
+.cursorrules
+.eslintrc*
+.prettierrc*
+tsconfig.json
+postcss.config.*
+tailwind.config.*
+
+# Source maps (optional for production)
+*.map
+
+# ===========================================
+# PRODUCTION DEPLOYMENT CHECKLIST
+# ===========================================
+# Before deploying to production, ensure:
+# 1. Run: composer install --no-dev --optimize-autoloader
+# 2. Run: npm run build (in frontend directory)
+# 3. Copy only necessary files (exclude development files)
+# 4. Set up proper environment variables
+# 5. Configure web server (Apache/Nginx) 
