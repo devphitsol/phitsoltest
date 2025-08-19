@@ -20,6 +20,9 @@
         "migrate": "php bin/migrate.php up",
         "migrate:down": "php bin/migrate.php down",
         "migrate:status": "php bin/migrate.php status",
-        "migrate:make": "php bin/migrate.php make"
+        "migrate:make": "php bin/migrate.php make",
+        "test": "echo 'No tests configured yet'",
+        "validate": "composer validate --strict",
+        "syntax-check": "find . -name \"*.php\" -not -path \"./vendor/*\" -not -path \"./node_modules/*\" -exec php -l {} \\;"
     }
 }
