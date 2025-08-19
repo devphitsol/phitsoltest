@@ -2,9 +2,10 @@
     "name": "phitsol/dashboard",
     "description": "PHP Dashboard with MongoDB backend and slider management",
     "type": "project",
+    "license": "proprietary",
     "require": {
         "php": ">=7.4",
-        "mongodb/mongodb": "1.17",
+        "mongodb/mongodb": "^1.17",
         "vlucas/phpdotenv": "^5.5"
     },
     "autoload": {
