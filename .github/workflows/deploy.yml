@@ -35,6 +35,13 @@ jobs:
           cd frontend
           npm install
       
+      - name: Debug - Check files
+        run: |
+          cd frontend
+          echo "Current directory: $(pwd)"
+          echo "Layout file contents:"
+          cat app/layout.tsx
+      
       - name: Build with Next.js
         run: |
           cd frontend
