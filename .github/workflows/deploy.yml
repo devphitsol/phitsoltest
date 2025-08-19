@@ -21,6 +21,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          path: frontend
       
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -41,25 +43,22 @@ jobs:
       
       - name: Install dependencies
         run: |
-          cd frontend
           npm ci --prefer-offline --no-audit
       
       - name: Debug - Check files
         run: |
-          cd frontend
           echo "Current directory: $(pwd)"
           echo "Layout file contents:"
           cat app/layout.tsx
       
       - name: Build with Next.js
         run: |
-          cd frontend
           npm run build
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: frontend/out
+          path: out
 
   deploy:
     environment:
