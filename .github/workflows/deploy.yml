@@ -2,9 +2,9 @@ name: Deploy Next.js app to Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["deploy_ver1"]
   pull_request:
-    branches: ["main"]
+    branches: ["deploy_ver1"]
 
 permissions:
   contents: read
