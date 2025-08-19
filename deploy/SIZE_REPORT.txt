@@ -1,0 +1,407 @@
+ Volume in drive C has no label.
+ Volume Serial Number is CEAC-3F7E
+
+ Directory of C:\xampp\htdocs\ver1\deploy
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 05:23               597 .env.production.template
+2025-08-15  ?? 05:23             1,232 .htaccess
+2025-08-15  ?? 05:23    <DIR>          admin
+2025-08-15  ?? 05:23    <DIR>          app
+2025-08-15  ?? 05:23    <DIR>          assets
+2025-08-15  ?? 05:23    <DIR>          bin
+2025-08-15  ?? 01:44               686 composer.json
+2025-08-15  ?? 05:23    <DIR>          config
+2025-08-15  ?? 05:23               649 DEPLOYMENT_INFO.txt
+2025-08-15  ?? 01:44               183 index.php
+2025-08-15  ?? 05:23    <DIR>          migrations
+2025-08-15  ?? 05:23    <DIR>          public
+2025-08-15  ?? 05:23                 0 SIZE_REPORT.txt
+               6 File(s)          3,347 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\admin
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44               669 .htaccess
+2025-08-15  ?? 01:44             2,886 404.php
+2025-08-15  ?? 01:44             2,909 500.php
+2025-08-15  ?? 05:23    <DIR>          assets
+2025-08-15  ?? 01:44            28,262 index.php
+2025-08-15  ?? 01:44             6,277 setup_admin.php
+2025-08-15  ?? 05:23    <DIR>          views
+               5 File(s)         41,003 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\admin\assets
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 05:23    <DIR>          css
+2025-08-15  ?? 05:23    <DIR>          docs
+2025-08-15  ?? 05:23    <DIR>          img
+2025-08-15  ?? 05:23    <DIR>          js
+               0 File(s)              0 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\admin\assets\css
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44            59,392 admin.css
+2025-08-15  ?? 01:44            17,181 products.css
+2025-08-15  ?? 01:44             7,167 theme-system.css
+2025-08-15  ?? 01:44            17,751 unified-admin-design.css
+               4 File(s)        101,491 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\admin\assets\docs
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44             8,801 COMPANY_MANAGEMENT_FEATURE.md
+2025-08-15  ?? 01:44             6,011 COMPANY_PRODUCT_MANAGEMENT_FEATURE.md
+2025-08-15  ?? 01:44             8,895 EDIT_PURCHASE_ORDER_FIX.md
+2025-08-15  ?? 01:44             5,068 EDIT_PURCHASE_ORDER_TESTING.md
+2025-08-15  ?? 01:44            10,721 ENHANCED_PRODUCT_IMAGE_MANAGEMENT.md
+2025-08-15  ?? 01:44             5,205 ENHANCED_PURCHASE_ORDER_FEATURE.md
+2025-08-15  ?? 01:44             8,635 ENHANCED_UPDATE_PRODUCT_FEATURE.md
+2025-08-15  ?? 01:44             7,961 FLEXIBLE_PRICING_FEATURE.md
+2025-08-15  ?? 01:44             9,126 MAIN_IMAGE_SELECTION_COMPLETE.md
+2025-08-15  ?? 01:44             9,918 MAIN_IMAGE_SELECTION_FEATURE.md
+2025-08-15  ?? 01:44             8,521 MAIN_IMAGE_SELECTION_TESTING.md
+2025-08-15  ?? 01:44             5,138 MULTIPLE_PRODUCT_IMAGES_FEATURE.md
+2025-08-15  ?? 01:44            10,583 MULTIPLE_PRODUCT_SELECTION_FEATURE.md
+2025-08-15  ?? 01:44            10,029 MULTIPLE_SERIAL_NUMBERS_FEATURE.md
+2025-08-15  ?? 01:44             6,738 PAYMENT_TERMS_FEATURE.md
+2025-08-15  ?? 01:44             5,586 PRODUCT_CATALOGUE_IMAGE_FIX.md
+2025-08-15  ?? 01:44             6,892 PRODUCT_MANAGEMENT_FEATURE.md
+2025-08-15  ?? 01:44             4,340 RICH_TEXT_EDITOR_FEATURE.md
+2025-08-15  ?? 01:44             6,184 UNIFIED_ADMIN_DESIGN_SYSTEM.md
+              19 File(s)        144,352 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\admin\assets\img
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44            15,853 logo_black.png
+2025-08-15  ?? 01:44            15,418 logo_white.png
+               2 File(s)         31,271 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\admin\assets\js
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44            13,414 image-gallery.js
+2025-08-15  ?? 01:44            13,006 image-optimizer.js
+               2 File(s)         26,420 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\admin\views
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 05:23    <DIR>          blog
+2025-08-15  ?? 05:23    <DIR>          company
+2025-08-15  ?? 01:44             9,871 dashboard-content.php
+2025-08-15  ?? 01:44            20,775 dashboard.php
+2025-08-15  ?? 01:44            17,452 layout.php
+2025-08-15  ?? 01:44            10,802 login.php
+2025-08-15  ?? 05:23    <DIR>          products
+2025-08-15  ?? 05:23    <DIR>          purchases
+2025-08-15  ?? 01:44             3,448 sidebar.php
+2025-08-15  ?? 05:23    <DIR>          slider
+2025-08-15  ?? 05:23    <DIR>          support-messages
+2025-08-15  ?? 05:23    <DIR>          users
+               5 File(s)         62,348 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\admin\views\blog
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44            10,166 content.php
+2025-08-15  ?? 01:44            10,226 create-content.php
+2025-08-15  ?? 01:44            11,926 edit-content.php
+               3 File(s)         32,318 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\admin\views\company
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44            17,762 company-detail.php
+2025-08-15  ?? 01:44            46,557 company.php
+2025-08-15  ?? 01:44            40,370 content.php
+               3 File(s)        104,689 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\admin\views\products
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44            20,282 content.php
+2025-08-15  ?? 01:44            22,222 create-content.php
+2025-08-15  ?? 01:44            39,741 edit-content.php
+               3 File(s)         82,245 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\admin\views\purchases
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44            22,672 content.php
+2025-08-15  ?? 01:44            50,035 create-content.php
+2025-08-15  ?? 01:44            38,422 edit-content.php
+2025-08-15  ?? 01:44            34,059 view-content.php
+               4 File(s)        145,188 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\admin\views\slider
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44            24,055 content.php
+2025-08-15  ?? 01:44             8,740 create-content.php
+2025-08-15  ?? 01:44            14,934 edit-content.php
+2025-08-15  ?? 01:44            37,614 index.php
+               4 File(s)         85,343 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\admin\views\support-messages
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44            11,416 content.php
+2025-08-15  ?? 01:44               853 delete.php
+2025-08-15  ?? 01:44            13,510 index.php
+2025-08-15  ?? 01:44             6,276 reply-content.php
+2025-08-15  ?? 01:44             9,418 reply.php
+2025-08-15  ?? 01:44             7,182 view-content.php
+               6 File(s)         48,655 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\admin\views\users
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44            12,441 content.php
+2025-08-15  ?? 01:44            23,654 create-content.php
+2025-08-15  ?? 01:44            10,207 edit-content.php
+2025-08-15  ?? 01:44            50,292 index.php
+               4 File(s)         96,594 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\app
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 05:23    <DIR>          blog
+2025-08-15  ?? 05:23    <DIR>          Config
+2025-08-15  ?? 05:23    <DIR>          Controllers
+2025-08-15  ?? 05:23    <DIR>          login
+2025-08-15  ?? 05:23    <DIR>          Models
+2025-08-15  ?? 04:41             5,086 page.tsx
+2025-08-15  ?? 05:23    <DIR>          Utils
+2025-08-15  ?? 05:23    <DIR>          Views
+               1 File(s)          5,086 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\app\blog
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 04:40             3,953 page.tsx
+2025-08-15  ?? 05:23    <DIR>          [id]
+               1 File(s)          3,953 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\app\blog\[id]
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 04:40             4,485 page.tsx
+               1 File(s)          4,485 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\app\Config
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44            10,446 Database.php
+               1 File(s)         10,446 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\app\Controllers
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 04:28            13,544 BlogController.php
+2025-08-15  ?? 01:44            14,147 ProductController.php
+2025-08-15  ?? 05:21            25,878 PurchaseController.php
+2025-08-15  ?? 04:33            10,019 SliderController.php
+2025-08-15  ?? 04:29            25,117 UserController.php
+               5 File(s)         88,705 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\app\login
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 04:40             4,501 page.tsx
+               1 File(s)          4,501 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\app\Models
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44            11,776 Blog.php
+2025-08-15  ?? 05:22             7,445 Product.php
+2025-08-15  ?? 01:44            12,399 Purchase.php
+2025-08-15  ?? 01:44             6,733 Slider.php
+2025-08-15  ?? 01:44             9,827 SupportMessage.php
+2025-08-15  ?? 01:44            22,386 User.php
+               6 File(s)         70,566 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\app\Utils
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44            13,277 EmailService.php
+               1 File(s)         13,277 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\app\Views
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44               958 Layout.php
+               1 File(s)            958 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\assets
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 05:23    <DIR>          css
+               0 File(s)              0 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\assets\css
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44             1,782 DesignSystem.css
+               1 File(s)          1,782 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\bin
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44             5,193 migrate.php
+               1 File(s)          5,193 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\config
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 04:38               612 database.php
+2025-08-15  ?? 04:33             1,594 session.php
+               2 File(s)          2,206 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\migrations
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44             1,292 20240809_000001_init_products_indexes.php
+               1 File(s)          1,292 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\public
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 04:30               432 .htaccess
+2025-08-15  ?? 01:44             1,545 403.php
+2025-08-15  ?? 01:44             2,863 404.php
+2025-08-15  ?? 01:44             2,876 500.php
+2025-08-15  ?? 05:23    <DIR>          api
+2025-08-15  ?? 05:23    <DIR>          assets
+2025-08-15  ?? 01:44            17,304 auth.php
+2025-08-15  ?? 01:44            23,515 blog.php
+2025-08-15  ?? 01:44            36,490 company-profile.php
+2025-08-15  ?? 01:44            29,785 contact-support.php
+2025-08-15  ?? 04:59            35,265 index.php
+2025-08-15  ?? 01:44               235 logout.php
+2025-08-15  ?? 01:44            27,844 partners-dashboard.php
+2025-08-15  ?? 05:01            16,116 partners-login.php
+2025-08-15  ?? 01:44            43,772 product-catalogue.php
+2025-08-15  ?? 01:44            14,355 profile.php
+2025-08-15  ?? 01:44            20,751 purchased-products.php
+2025-08-15  ?? 05:23    <DIR>          uploads
+2025-08-15  ?? 01:44            34,511 view-purchase-order.php
+              16 File(s)        307,659 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\public\api
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 04:52             3,435 index.php
+               1 File(s)          3,435 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\public\assets
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 05:23    <DIR>          css
+2025-08-15  ?? 05:23    <DIR>          docs
+2025-08-15  ?? 05:23    <DIR>          img
+2025-08-15  ?? 05:23    <DIR>          js
+               0 File(s)              0 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\public\assets\css
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44            11,486 admin.css
+2025-08-15  ?? 01:44             4,174 blog.css
+2025-08-15  ?? 01:44            31,313 partners-layout.css
+2025-08-15  ?? 01:44            10,288 responsive-enhancements.css
+2025-08-15  ?? 01:44            53,247 style.css
+               5 File(s)        110,508 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\public\assets\docs
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44             8,097 ADMIN_PARTNERS_CONNECTION.md
+2025-08-15  ?? 01:44            10,549 HOME_LINK_FEATURE.md
+2025-08-15  ?? 01:44            11,754 MODERN_UI_DESIGN_SYSTEM.md
+2025-08-15  ?? 01:44            12,945 NEW_USER_INFO_DESIGN_SYSTEM.md
+2025-08-15  ?? 01:44            11,853 partners-design-guide.md
+2025-08-15  ?? 01:44             8,766 PARTNERS_PURCHASED_PRODUCTS_FEATURE.md
+2025-08-15  ?? 01:44             7,867 SIDEBAR_STANDARDIZATION.md
+2025-08-15  ?? 01:44            11,573 UNIFIED_DESIGN_SYSTEM.md
+2025-08-15  ?? 01:44            18,016 USER_INFO_DESIGN_SYSTEM.md
+               9 File(s)        101,420 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\public\assets\img
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44            15,853 logo_black.png
+2025-08-15  ?? 01:44            15,418 logo_white.png
+               2 File(s)         31,271 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\public\assets\js
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 01:44            25,646 unified-layout.js
+               1 File(s)         25,646 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\public\uploads
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 05:23    <DIR>          blog
+2025-08-15  ?? 05:23    <DIR>          slider
+               0 File(s)              0 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\public\uploads\blog
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 05:04           853,095 689ef81e8f075.jpg
+               1 File(s)        853,095 bytes
+
+ Directory of C:\xampp\htdocs\ver1\deploy\public\uploads\slider
+
+2025-08-15  ?? 05:23    <DIR>          .
+2025-08-15  ?? 05:23    <DIR>          ..
+2025-08-15  ?? 05:05         2,184,887 689ef83d8bb91.jpg
+               1 File(s)      2,184,887 bytes
+
+     Total Files Listed:
+             129 File(s)      4,835,635 bytes
+             116 Dir(s)  161,260,609,536 bytes free

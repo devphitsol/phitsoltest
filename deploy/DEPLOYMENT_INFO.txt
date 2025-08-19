@@ -1,0 +1,25 @@
+PHITSOL Project Deployment
+==========================
+Deployment Date: 2025-08-15 17:23:09.89
+Deployment Script: deploy.bat
+Project Version: 1.0.0
+
+DEPLOYMENT STEPS:
+1. Upload files to production server
+2. Run: composer install --no-dev --optimize-autoloader
+3. Run: npm install --production (in frontend directory)
+4. Run: npm run build (in frontend directory)
+5. Set up environment variables
+6. Configure web server
+7. Set proper file permissions
+
+EXCLUDED FILES:
+- node_modules/
+- vendor/
+- .next/ (will be rebuilt)
+- .git/
+- Development configuration files
+- Log files
+- Cache files
+
+For more information, see README.md
