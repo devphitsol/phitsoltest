@@ -26,8 +26,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "18"
-          cache: 'npm'
-          cache-dependency-path: frontend/package-lock.json
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -35,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: |
           cd frontend
-          npm ci
+          npm install
       
       - name: Build with Next.js
         run: |
