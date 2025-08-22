@@ -427,7 +427,7 @@ $startTime = microtime(true);
                         <div class="relative">
                             <button class="flex items-center space-x-1 text-gray-700 hover:text-blue-600 transition-colors">
                                 <i class="fas fa-user"></i>
-                                <span><?php echo htmlspecialchars($_SESSION['first_name'] . ' ' . $_SESSION['last_name']); ?></span>
+                                <span><?php echo htmlspecialchars(($_SESSION['first_name'] ?? '') . ' ' . ($_SESSION['last_name'] ?? '')); ?></span>
                                 <i class="fas fa-chevron-down text-xs"></i>
                             </button>
                             <!-- Dropdown menu would go here -->

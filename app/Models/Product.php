@@ -25,20 +25,26 @@ class Product
     private function createIndexes()
     {
         try {
-            // Index for company_id queries
-            $this->collection->createIndex(['company_id' => 1]);
-            
-            // Index for name-based searches
-            $this->collection->createIndex(['name' => 'text']);
-            
-            // Index for status-based queries
-            $this->collection->createIndex(['status' => 1]);
-            
-            // Index for date-based queries
-            $this->collection->createIndex(['created_at' => -1]);
-            
-            // Compound index for company + status queries
-            $this->collection->createIndex(['company_id' => 1, 'status' => 1]);
+            // Check if the collection supports indexing (MongoDB collections do, FileCollection doesn't)
+            if (method_exists($this->collection, 'createIndex')) {
+                // Index for company_id queries
+                $this->collection->createIndex(['company_id' => 1]);
+                
+                // Index for name-based searches
+                $this->collection->createIndex(['name' => 'text']);
+                
+                // Index for status-based queries
+                $this->collection->createIndex(['status' => 1]);
+                
+                // Index for date-based queries
+                $this->collection->createIndex(['created_at' => -1]);
+                
+                // Compound index for company + status queries
+                $this->collection->createIndex(['company_id' => 1, 'status' => 1]);
+            } else {
+                // File storage mode - indexes are not supported
+                error_log("Product::createIndexes - Indexing not supported in file storage mode");
+            }
             
         } catch (\Exception $e) {
             // Index creation might fail if indexes already exist, which is fine

@@ -2,9 +2,10 @@
     "name": "phitsol/dashboard",
     "description": "PHP Dashboard with MongoDB backend and slider management",
     "type": "project",
+    "license": "proprietary",
     "require": {
         "php": ">=7.4",
-        "mongodb/mongodb": "1.17",
+        "mongodb/mongodb": "^1.17",
         "vlucas/phpdotenv": "^5.5"
     },
     "autoload": {
@@ -19,6 +20,9 @@
         "migrate": "php bin/migrate.php up",
         "migrate:down": "php bin/migrate.php down",
         "migrate:status": "php bin/migrate.php status",
-        "migrate:make": "php bin/migrate.php make"
+        "migrate:make": "php bin/migrate.php make",
+        "test": "echo 'No tests configured yet'",
+        "validate": "composer validate --strict",
+        "syntax-check": "find . -name \"*.php\" -not -path \"./vendor/*\" -not -path \"./node_modules/*\" -exec php -l {} \\;"
     }
 }

@@ -323,6 +323,41 @@ class FileCollection
     {
         return uniqid() . '_' . time();
     }
+
+    /**
+     * Create index method for file storage (no-op since file storage doesn't use indexes)
+     * This method exists to maintain compatibility with MongoDB Collection interface
+     */
+    public function createIndex($keys, $options = [])
+    {
+        // File storage doesn't use indexes, so this is a no-op
+        // Log for debugging purposes
+        error_log("FileCollection::createIndex called for {$this->collectionName} - indexes not supported in file storage mode");
+        return true;
+    }
+
+    /**
+     * Get distinct values for a field
+     * This method exists to maintain compatibility with MongoDB Collection interface
+     */
+    public function distinct($fieldName, $filter = [])
+    {
+        $data = $this->loadData();
+        $distinctValues = [];
+        
+        foreach ($data as $document) {
+            if ($this->matchesFilter($document, $filter)) {
+                if (isset($document[$fieldName])) {
+                    $value = $document[$fieldName];
+                    if (!in_array($value, $distinctValues)) {
+                        $distinctValues[] = $value;
+                    }
+                }
+            }
+        }
+        
+        return $distinctValues;
+    }
 }
 
 // Helper classes for file-based operations
