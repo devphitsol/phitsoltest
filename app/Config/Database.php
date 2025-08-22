@@ -335,6 +335,29 @@ class FileCollection
         error_log("FileCollection::createIndex called for {$this->collectionName} - indexes not supported in file storage mode");
         return true;
     }
+
+    /**
+     * Get distinct values for a field
+     * This method exists to maintain compatibility with MongoDB Collection interface
+     */
+    public function distinct($fieldName, $filter = [])
+    {
+        $data = $this->loadData();
+        $distinctValues = [];
+        
+        foreach ($data as $document) {
+            if ($this->matchesFilter($document, $filter)) {
+                if (isset($document[$fieldName])) {
+                    $value = $document[$fieldName];
+                    if (!in_array($value, $distinctValues)) {
+                        $distinctValues[] = $value;
+                    }
+                }
+            }
+        }
+        
+        return $distinctValues;
+    }
 }
 
 // Helper classes for file-based operations
