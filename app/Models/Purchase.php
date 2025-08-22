@@ -27,21 +27,27 @@ class Purchase
     private function createIndexes()
     {
         try {
-            // Index for company_id queries (most common)
-            $this->collection->createIndex(['company_id' => 1]);
-            
-            // Index for date-based queries
-            $this->collection->createIndex(['created_at' => -1]);
-            $this->collection->createIndex(['order_date' => -1]);
-            
-            // Index for status-based queries
-            $this->collection->createIndex(['purchase_status' => 1]);
-            
-            // Compound index for company + status queries
-            $this->collection->createIndex(['company_id' => 1, 'purchase_status' => 1]);
-            
-            // Compound index for company + date queries
-            $this->collection->createIndex(['company_id' => 1, 'created_at' => -1]);
+            // Check if the collection supports indexing (MongoDB collections do, FileCollection doesn't)
+            if (method_exists($this->collection, 'createIndex')) {
+                // Index for company_id queries (most common)
+                $this->collection->createIndex(['company_id' => 1]);
+                
+                // Index for date-based queries
+                $this->collection->createIndex(['created_at' => -1]);
+                $this->collection->createIndex(['order_date' => -1]);
+                
+                // Index for status-based queries
+                $this->collection->createIndex(['purchase_status' => 1]);
+                
+                // Compound index for company + status queries
+                $this->collection->createIndex(['company_id' => 1, 'purchase_status' => 1]);
+                
+                // Compound index for company + date queries
+                $this->collection->createIndex(['company_id' => 1, 'created_at' => -1]);
+            } else {
+                // File storage mode - indexes are not supported
+                error_log("Purchase::createIndexes - Indexing not supported in file storage mode");
+            }
             
         } catch (\Exception $e) {
             // Index creation might fail if indexes already exist, which is fine

@@ -323,6 +323,18 @@ class FileCollection
     {
         return uniqid() . '_' . time();
     }
+
+    /**
+     * Create index method for file storage (no-op since file storage doesn't use indexes)
+     * This method exists to maintain compatibility with MongoDB Collection interface
+     */
+    public function createIndex($keys, $options = [])
+    {
+        // File storage doesn't use indexes, so this is a no-op
+        // Log for debugging purposes
+        error_log("FileCollection::createIndex called for {$this->collectionName} - indexes not supported in file storage mode");
+        return true;
+    }
 }
 
 // Helper classes for file-based operations
